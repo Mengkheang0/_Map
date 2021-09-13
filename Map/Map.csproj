@@ -109,5 +109,8 @@
   <ItemGroup>
     <None Include="Resources\getfile.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Readme.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
