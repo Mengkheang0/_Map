@@ -37,7 +37,7 @@ namespace Map
                         {
 
                             itemProp = picture.Name;
-                            uinfo = new Changeinfo(itemProp, picture);
+                            uinfo = new Changeinfo(itemProp, picture,f);
                             uinfo.Location = new Point(picture.Right + cp.Width, picture.Top);
                             f.Controls.Add(uinfo);
                             uinfo.BringToFront();
