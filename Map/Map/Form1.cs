@@ -21,5 +21,24 @@ namespace Map
             Cambodia.ImageLocation = "https://cdn.pixabay.com/photo/2013/07/13/09/54/cambodia-156281_1280.png";
             mv.movePictureBox(this);
         }
+
+        Map.newCountry nc;
+
+        private void addCountry_Click(object sender, EventArgs e)
+        {
+            if(nc == null)
+            {
+                Map.newCountry nc = new Map.newCountry(this);
+                nc.Location = new Point(this.Width/2, this.Height/2);
+                this.Controls.Add(nc);
+                nc.BringToFront();
+            }
+            else
+            {
+                if (!nc.Visible)
+                    nc.Visible = true;
+            }
+           
+        }
     }
 }

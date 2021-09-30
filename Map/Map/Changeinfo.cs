@@ -14,6 +14,9 @@ namespace Map
     {
         Point llc, nlc;
         int bx, by, mx, my;
+
+     
+
         bool _move;
         public Changeinfo()
         {
@@ -27,7 +30,7 @@ namespace Map
 
         }
 
-        public Changeinfo(string ItemsName,PictureBox pb) 
+        public Changeinfo(string ItemsName,PictureBox pb, Form f) 
         {
             InitializeComponent();
 
@@ -46,6 +49,11 @@ namespace Map
             this.MouseMove += new MouseEventHandler(mMove);
             this.MouseUp += new MouseEventHandler(mUp);
             guna2Button1.Click += new EventHandler(click);
+            guna2Button2.Click += new EventHandler(removePc);
+            void removePc(object sender, EventArgs e)
+            {
+                f.Controls.Remove(pb);
+            }
             void mDown(object sender, MouseEventArgs e)
             {
                 _move = true;
