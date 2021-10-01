@@ -8,3 +8,4 @@ a map with a bunch of country init and you can move.
 -animation when mouseHover
 
 ![map](https://user-images.githubusercontent.com/79799497/135487942-2e39ce9a-6e2d-4d15-99d9-c0dd430ee260.PNG =250x250)
+<img src="https://user-images.githubusercontent.com/79799497/135487942-2e39ce9a-6e2d-4d15-99d9-c0dd430ee260.PNG" width="200" height="400" />
