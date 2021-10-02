@@ -7,4 +7,4 @@ a map with a bunch of country init and you can move.
 -can add , update, delete<br/>
 -animation when mouseHover
 
-<img src="https://user-images.githubusercontent.com/79799497/135487942-2e39ce9a-6e2d-4d15-99d9-c0dd430ee260.PNG" width="400" height="300" />
+<img src="https://user-images.githubusercontent.com/79799497/135487942-2e39ce9a-6e2d-4d15-99d9-c0dd430ee260.PNG" width="800"  />
